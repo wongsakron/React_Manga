@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    font-family: 'Sriracha', cursive;
+    background-image: url("/public/img/bg-manga.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+  
+
+.btn-funky-moon {
+    max-width: 200px;
+    width: 90%;
+    background-position: center center;
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 2px solid #eee;
+    transform: scale(0.9, 0.9);
+    margin: auto;
+}
+
+.btn-funky-moon:hover{
+    border: 2px solid #ff89e2;
+    color: #ffffff;
+}
+.btn-rounded {
+    border-radius: 35px;
+}
+.img-rounded{
+    border-radius: 20px;
+}
+
+.bg-test{
+    height:170px;
+    width:auto;/*maintain aspect ratio*/
+    max-width:700px;
+    text-align: center;
+    border: 1px solid #6b81ff;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #4da6ff36;
+    transform: scale(0.9, 0.9);
+    background-size: cover;
+}
+
+.bg-test:hover{
+    transform: scale(1, 1);
+}
+.btn-funky-moon:hover{
+    transform: scale(1, 1);
+}
+
+.content {
+    margin: auto;
+    max-width: 200px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 70%;
+    transform: skew(-8deg, 0deg);
+    text-align: center;
+    margin-bottom: 5px;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #4da6ff36;
+    border: dashed 3px #96c2fe;
+    padding: 0.2em 0.5em;
+    color: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);
+    color: #5b9efc;
+    text-shadow: 1px -0.5px 0px rgba(255, 160, 250, 0.596);
+}
+
+.content:hover{
+    transform: scale(1.5, 1.5);
+}
+
+
+
+.cradit{
+    color: #eee;
+    text-shadow: 1px 1px 1px rgba(247, 24, 154, 0.8);
+}
+
+
